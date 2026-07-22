@@ -1,10 +1,11 @@
 import './App.css';
+import Logo from "./assets/Logo.png";
 
 function App(){
   return (
     <>
     <nav className = "navbar">
-      <img src="img/logo.png" alt="Logo" width="50" height="50"/>
+      <img src={Logo} alt="Logo" width="50" height="50"/>
       <h1>NATURE</h1>
       <ul>
         <li><a href="#home">HOME</a></li>
@@ -22,8 +23,10 @@ function App(){
       <p>
         Discover the Beauty of Indonesia's Flora and Fauna.
       </p>
-      
       </div>
+      <a className="hero-button">
+        FEEL THE EXPLORE →
+    </a>
     </section>
     </>
   );
