@@ -1,5 +1,5 @@
 import '../styles/home.css';
-import CategoryCards from "./Card";
+import CategoryCards from "./CategoryCard";
 function Category() {
     return(
 

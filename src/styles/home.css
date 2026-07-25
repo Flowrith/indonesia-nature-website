@@ -99,3 +99,86 @@
     flex-direction:column;
 }
 
+.Fauna{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../assets/fauna-background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    gap: 50px;
+}
+
+.Faunaheader {
+    padding-top: 60px;;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
+    }
+    
+    span{
+    display: block;
+    margin-top: 10px;
+    }
+
+    p {
+    font-size: 32px;
+    font-weight: 250;
+    text-align: center;
+    }
+    
+}
+
+.fauna-title{
+    display:flex;
+    flex-direction:column;
+}
+
+.Flora{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../assets/flora-background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    gap: 50px;
+}
+
+.Floraheader {
+    padding-top: 60px;;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-align: center;
+    }
+    
+    span{
+    display: block;
+    margin-top: 10px;
+    }
+
+    p {
+    font-size: 32px;
+    font-weight: 250;
+    text-align: center;
+    }
+}

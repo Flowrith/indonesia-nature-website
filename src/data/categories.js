@@ -24,4 +24,5 @@ const categories = [
   },
 ];
 
-export default categories;
+export default categories
+

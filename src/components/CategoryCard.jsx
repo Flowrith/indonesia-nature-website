@@ -6,14 +6,14 @@ function CategoryCards() {
     <div className="categorycards">
 
       {categories.map((category) => (
-        <div className="card-item" key={category.id}>
+        <div className="category-card-item" key={category.id}>
 
           <img src={category.image} alt={category.title} />
 
           <h2>{category.title}</h2>
           <p>{category.subtitle}</p>
 
-        <a href={category.link} className="card-button">
+        <a href={category.link} className="category-card-button">
           {category.button} →
         </a>
         </div>
