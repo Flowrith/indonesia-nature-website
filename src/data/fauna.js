@@ -6,6 +6,7 @@ const fauna = [
   {
     
     id: 1,
+    bgClass: "komodo-bg",
     title: "KOMODO DRAGON",
     image: komododragon,
     subtitle : "(PULAU KOMODO, NTT)",
@@ -16,6 +17,7 @@ const fauna = [
   {
 
     id: 2,
+    bgClass: "tiger-bg",
     title: "SUMATRAN TIGER",
     image: sumatrantiger,
     subtitle : "(PULAU SUMATERA)",
@@ -25,6 +27,7 @@ const fauna = [
   },
 {
   id: 3,
+  bgClass: "jalak-bg",
   title: "Jalak Bali",
   image: jalakbali,
   subtitle : "(PULAU BALI)" ,

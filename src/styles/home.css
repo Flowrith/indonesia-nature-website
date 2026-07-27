@@ -64,7 +64,7 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    min-height:100vh;
+    min-height:120vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../assets/category-background.png');
     background-size: cover;
     background-attachment: fixed;
@@ -75,7 +75,6 @@
 }
 
 .categoryheader {
-    padding-top: 60px;;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -104,7 +103,7 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    min-height:100vh;
+    min-height:120vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../assets/fauna-background.png');
     background-size: cover;
     background-attachment: fixed;
@@ -114,7 +113,6 @@
 }
 
 .Faunaheader {
-    padding-top: 60px;;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -149,7 +147,7 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    min-height:100vh;
+    min-height:120vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../assets/flora-background.png');
     background-size: cover;
     background-attachment: fixed;
@@ -159,7 +157,6 @@
 }
 
 .Floraheader {
-    padding-top: 60px;;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -181,4 +178,140 @@
     font-weight: 250;
     text-align: center;
     }
+}
+
+.Education {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:120vh;
+    min-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.komodo{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("../assets/education-komodo-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.tiger{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("../assets/education-tiger-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.jalak{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("../assets/education-jalak-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.rafflesia{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("../assets/education-rafflesia-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.titan{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("../assets/education-titan-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.moonorchid{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("../assets/education-moonorchid-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.Education-Content-Container{
+    min-height: 633px;
+    max-width: 1240px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 45px;
+    justify-content: center;
+    gap: 70px;
+}
+
+.Education-content-left{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width:410px;
+        max-width:100%;
+        height:auto;
+        border-radius:34px;
+    }
+}
+
+.Education-content-right{
+    margin-top: 50px;
+    color: #094B00;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+    gap: 20px;
+
+    h1{
+        font-size: 44px;
+    }
+
+    span{
+        display: block;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+}
+
+.Education-button{
+    margin-top: 15px;
+    width: 70px;
+    height: 40px;
+    margin-top: 20%;
+    margin-left:90%;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #0A6400;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .2s;
+    text-decoration: none;
+
+    &:hover{
+    background-color: #0c7d00;
+    transform: translateY(-2px);
+    }
+}
+
+.Education-button span{
+    transition: transform .2s;
+}
+
+.Education-button:hover span{
+    transform: translateX(3px);
 }
