@@ -5,7 +5,7 @@ import flora from '../data/flora.js';
 function Flora() {
     return(
     <>
-    <section className="Flora">
+    <section className="Flora" id="flora">
 
         <div className="Floraheader">
         <h1 className="Flora-title">

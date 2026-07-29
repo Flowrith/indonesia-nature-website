@@ -5,7 +5,7 @@ import fauna from '../data/fauna.js';
 function Fauna() {
     return(
     <>
-    <section className="Fauna">
+    <section className="Fauna" id="fauna">
 
         <div className="Faunaheader">
         <h1 className="Fauna-title">

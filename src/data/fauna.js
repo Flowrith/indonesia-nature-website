@@ -25,7 +25,7 @@ const fauna = [
     button: "GET EDUCATION!"
 
   },
-{
+  {
   id: 3,
   bgClass: "jalak-bg",
   title: "Jalak Bali",
@@ -33,7 +33,7 @@ const fauna = [
   subtitle : "(PULAU BALI)" ,
   link : "/#jalakbali",
   button : "GET EDUCATION!"
-}
+  }
 ];
 
 export default fauna

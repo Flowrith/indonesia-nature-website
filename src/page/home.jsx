@@ -28,6 +28,8 @@ function Home() {
             <Floraeducation item={FloraeducationData[1]} />
 
              <Floraeducation item={FloraeducationData[2]} />
+
+
         </>
     );
 }
