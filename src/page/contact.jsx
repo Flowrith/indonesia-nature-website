@@ -1,4 +1,5 @@
 import '../styles/contact.css';
+import Contactimage from '../assets/contact-image.png';
 
 function Contact(){
     return(
@@ -19,7 +20,13 @@ function Contact(){
             <p>Your support helps protect endangered
             wildlife and preserve Indonesia's rich
             biodiversity for future generations.</p>
+            <a href="" className='Contact-button'>
+                wasd
+            </a>
             </div>
+        </div>
+        <div className='contact-content-bottom'>
+            <img src= {Contactimage} alt="Tiger" />
         </div>
         </section>
 
