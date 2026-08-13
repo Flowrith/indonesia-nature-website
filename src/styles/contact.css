@@ -69,6 +69,7 @@
     img{
         height: auto;
         border-radius: 76px;
+        
     }
 }
 
@@ -89,6 +90,7 @@
     cursor: pointer;
     transition: .2s;
     text-decoration: none;
+    font-size: 14px;
 
     &:hover{
     background-color: #0c7d00;
@@ -102,4 +104,79 @@
 
 .Contact-button:hover span{
     transform: translateX(3px);
+}
+
+.percentage{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 38px;
+    background-color: rgba(0, 0, 0, 0.015);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    width: 361px;
+    height: 135px;
+    left: 23%;
+    top: 1385%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.percentage-inside{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+    h1{
+        font-weight: 200;
+        font-size : 20px;
+    }
+    h2{
+        font-weight: 800;
+        font-size: 20px;
+    }
+}
+
+.bar{
+    align-self: center;
+    background-color: #ffffff;
+    border-radius: 6px;
+    min-width: 320px;
+    max-width: 320px;
+    min-height: 12px;
+    max-height: 12px;
+}
+
+.filled-bar{
+    align-self: center;
+    background-color: #FFDD00;
+    border-radius: 6px;
+    border-radius: 6px;
+    min-width: 224px;
+    max-width: 224px;
+    min-height: 12px;
+    max-height: 12px;
+    z-index: 1;
+}
+
+.donation-detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation-detail-left{
+    h4{
+        font-weight: 200;
+        font-size : 15px;
+    }
+    
+}
+
+.donation-detail-right{
+    h4{
+        font-weight: 800;
+        font-size : 15px;
+    }
 }

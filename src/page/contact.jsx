@@ -21,15 +21,33 @@ function Contact(){
             wildlife and preserve Indonesia's rich
             biodiversity for future generations.</p>
             <a href="" className='Contact-button'>
-                wasd
+                Donate Now 
+                <span>→</span>
             </a>
             </div>
         </div>
         <div className='contact-content-bottom'>
             <img src= {Contactimage} alt="Tiger" />
+            <div className="percentage">
+                <div className="percentage-inside">
+               <h1>Total Donation Collected</h1>
+               <h2>Rp. 2.500.234.409</h2>
+               <div className="bar">
+                <div className="filled-bar">
+                </div>
+               </div>
+               <div className="donation-detail">
+                <div className="donation-detail-left">
+                    <h4>2.980 Investors</h4>
+               </div>
+                <div className="donation-detail-right">
+                    <h4>70%</h4>
+                </div>
+               </div>
+                </div>
+               </div>
         </div>
         </section>
-
     )
 }
 
