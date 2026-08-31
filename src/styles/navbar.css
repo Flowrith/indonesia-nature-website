@@ -48,3 +48,9 @@
         }
     }
 }
+
+@media(max-width: 990px) {
+    .navbar {
+        display: none;
+    }
+}
