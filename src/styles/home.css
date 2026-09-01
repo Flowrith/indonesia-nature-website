@@ -133,6 +133,26 @@
     flex-direction:column;
 }
 
+@media(max-width: 990px) {
+
+    .category-selection {
+        min-height: 120vh;
+    }
+
+    .categoryheader {
+        h1{
+            font-size: 40px;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+           
+        p {
+            font-size: 25px;
+            font-weight: 250;
+    }
+    }
+}
+
 .Fauna{
     display:flex;
     flex-direction:column;
@@ -212,6 +232,43 @@
     font-size: 32px;
     font-weight: 250;
     text-align: center;
+    }
+}
+
+@media(max-width: 990px) {
+
+    .Fauna {
+        min-height: 140vh;
+    }
+
+    .Flora {
+        min-height: 140vh;
+    }
+
+    .Faunaheader {
+        h1{
+            font-size: 40px;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+           
+        p {
+            font-size: 25px;
+            font-weight: 250;
+    }
+    }
+
+    .Floraheader {
+        h1{
+            font-size: 40px;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+           
+        p {
+            font-size: 25px;
+            font-weight: 250;
+    }
     }
 }
 

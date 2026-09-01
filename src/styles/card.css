@@ -67,6 +67,22 @@
     transform: translateX(3px);
 }
 
+@media(max-width: 990px) {
+    .category-card-item{
+        width: 300px;
+        height: 300px;
+    }
+
+    .category-card-item img{
+        width: 120px;
+        height: auto;
+    }
+
+    .category-card-item h2{
+        font-size: 24px;
+    }
+}
+
 /* Information Card Area */
 
 .informationcards{
@@ -139,4 +155,41 @@
 
 .small-subtitle {
     font-size: 13px !important;
+}
+
+@media(max-width: 990px) {
+
+    .informationcards{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+    
+    .information-card-item{
+        width: 240px;
+        height: 240px;
+        padding:30px;
+        gap: 5px;
+
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .information-card-button{
+        margin-top: 10px;
+        padding: 4px 12px;
+        font-size: 14px;
+    }
+
+    .information-card-item img{
+        width: 140px;
+        height: auto;
+    }
+
+    .information-card-item h2{
+        font-size: 14px;
+    }
 }

@@ -46,11 +46,59 @@
                 }
             }
         }
+        span{
+            display: none;
+
+            
+        }
     }
 }
 
 @media(max-width: 990px) {
     .navbar {
-        display: none;
+        height : 40px;
+        width : 90%;
+        margin: 20px 0 0 5%;
+
+
+        img{
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+        h1{
+            font-size: 14px;
+        }
+        
+        ul {
+            display: none;
+        }
+
+        span{
+            display: flex;
+            margin-right: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+               
+
+            li{
+                list-style: none;
+                color: #6B6B6B;
+
+                
+                a{
+                    text-decoration: none;
+                    color: #6B6B6B;
+                    font-weight: 400;
+                    transition: color 0.3s ease;
+
+                    &:hover{
+                        color: #000000;
+                    }
+                }
+            }
+        }
     }
+
 }
