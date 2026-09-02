@@ -328,7 +328,7 @@
 }
 
 .Education-Content-Container{
-    min-height: 633px;
+    max-height: 100%;
     max-width: 1240px;
     background-color: #FFFFFF;
     display: flex;
@@ -406,4 +406,46 @@
 
 .Education-button:hover span{
     transform: translateX(3px);
+}
+
+@media(max-width: 990px) {
+
+
+    .Education-Content-Container{
+    min-height: 633px;
+    max-width: 350px;
+    background-color: #FFFFFF;
+    flex-wrap: wrap;
+    border-radius: 45px;
+    justify-content: center;
+    gap: 30px;
+}
+
+    .Education-content-left{
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .Education-content-right{
+        width: 90%;
+        margin-top: 20px;
+        text-align: center;
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .Education-button{
+        margin-top: 5px;
+        width: 70px;
+        height: 30px;
+        margin-left:40%;
+        margin-bottom: 20px;
+        font-size: 14px;
+        gap: 0px;
+        
+    }
 }
