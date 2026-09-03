@@ -65,6 +65,7 @@
 
 .contact-content-bottom{
     margin-top: 2%;
+    
 
     img{
         height: auto;
@@ -178,5 +179,50 @@
     h4{
         font-weight: 800;
         font-size : 15px;
+    }
+}
+
+@media(max-width: 990px) {
+    .contact {
+        display:flex;
+        flex-direction:column;
+        height : 70vh;
+        margin: 0;
+    }
+
+    .content-container{
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .contact-content-left,
+    .contact-content-right{
+        width: 100%;
+        padding: 0 20px;
+
+        h1{
+            font-size: 32px;
+        }
+
+        h2{
+            font-size: 24px;
+        }
+
+    }
+
+    .contact-content-bottom{
+        display: none;
+    }
+
+    .Contact-button{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .percentage{
+        left: 50%;
+        top: 1500%;
     }
 }
