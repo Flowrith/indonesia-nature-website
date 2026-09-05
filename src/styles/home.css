@@ -136,12 +136,12 @@
 @media(max-width: 990px) {
 
     .category-selection {
-        min-height: 120vh;
+        min-height: 150vh;
     }
 
     .categoryheader {
         h1{
-            font-size: 40px;
+            font-size: 36px;
             line-height: 1.2;
             font-weight: 600;
         }
@@ -238,11 +238,11 @@
 @media(max-width: 990px) {
 
     .Fauna {
-        min-height: 140vh;
+        min-height: 160vh;
     }
 
     .Flora {
-        min-height: 140vh;
+        min-height: 160vh;
     }
 
     .Faunaheader {
@@ -410,6 +410,10 @@
 
 @media(max-width: 990px) {
 
+    .Education {
+    height:140vh;
+    min-width: 100%;
+}
 
     .Education-Content-Container{
     min-height: 633px;

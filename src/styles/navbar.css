@@ -10,6 +10,13 @@
     /* justify-content: flex-end; */
     border-radius: 22px;
 
+    button{
+        background: none;
+        border: none;
+        font-size: 16px;
+        display: none;
+    }
+
     img{
         margin-left: 40px;
         margin-top: 5px;
@@ -46,15 +53,38 @@
                 }
             }
         }
-        span{
-            display: none;
-
-            
-        }
     }
+
 }
 
-@media(max-width: 990px) {
+@media(max-width: 774px) {
+    .navbar {
+        height : 40px;
+        width : 90%;
+        margin: 20px 0 0 5%;
+
+        button{
+            display: none;
+        }
+
+
+        img{
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+        h1{
+            font-size: 14px;
+        }
+
+        ul{
+            font-size: 12px;
+        }
+        
+    }
+    }
+
+    @media(max-width: 450px) {
     .navbar {
         height : 40px;
         width : 90%;
@@ -73,32 +103,46 @@
         ul {
             display: none;
         }
+        
+        @keyframes openMenu {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
 
-        span{
+        ul.active{
             display: flex;
-            margin-right: 20px;
-            font-size: 24px;
-            cursor: pointer;
+            flex-direction: column;
+            background-color: #FFFFFF;
+            position: absolute;
+            top: 43px;
+            right: 0;
+            width: 100%;
+            align-items: center;
+            animation: openMenu 1s ease-in-out;
+        }
+
+        ul.active li {
+        margin: 10px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+
+        button{
             display: flex;
+            justify-content: end;
+            align-items: center;
+            margin-left: 55%;
                
 
             li{
                 list-style: none;
                 color: #6B6B6B;
-
-                
-                a{
-                    text-decoration: none;
-                    color: #6B6B6B;
-                    font-weight: 400;
-                    transition: color 0.3s ease;
-
-                    &:hover{
-                        color: #000000;
-                    }
+                    
                 }
             }
         }
     }
-
-}
