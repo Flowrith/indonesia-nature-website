@@ -99,9 +99,9 @@ npm run dev
 - ✅ Category Selection
 - ✅ Flora Page
 - ✅ Fauna Page
-- 🔄 Detail Information Pages
-- 🔄 About Section
-- 🔄 Responsive Improvements
+- ✅ Detail Information Pages
+- ✅ About Section
+- ✅ Responsive
 
 ---
 
@@ -125,7 +125,6 @@ This project is helping me learn:
 - React Router
 - Category Lock System
 - Improved responsiveness
-- Dark mode *(maybe)*
 
 ---
 
