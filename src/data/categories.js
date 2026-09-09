@@ -8,7 +8,7 @@ const categories = [
     title: "FAUNA",
     image: Fauna,
     subtitle : "Protect Animals, Preserve Nature.",
-    link: "/#fauna",
+    link: "/fauna#fauna",
     button: "LET'S GO!"
 
   },
@@ -18,7 +18,7 @@ const categories = [
     title: "FLORA",
     image: Flora,
     subtitle : "Protect Flora, Preserve Nature.",
-    link: "/#flora",
+    link: "/flora#flora",
     button: "LET'S GO!"
 
   },

@@ -15,9 +15,9 @@ function Navbar() {
       <h1>NATURE</h1>
       <button onClick={hamburgerMenu}>☰</button>
       <ul className={menuOpen ? "active" : ""}>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="/#home">HOME</a></li>
+        <li><a href="/#about">ABOUT</a></li>
+        <li><a href="/#contact">CONTACT</a></li>
       </ul>
     </nav>
   );
