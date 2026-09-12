@@ -1,4 +1,5 @@
 import "../styles/card.css";
+import { Link } from 'react-router-dom';
 
 function InformationCards({ data }) {
   return (
@@ -11,9 +12,9 @@ function InformationCards({ data }) {
             {item.subtitle}
           </p>
 
-          <a href={item.link} className="information-card-button">
+          <Link to={item.link} className="information-card-button">
             {item.button} →
-          </a>
+          </Link>
         </div>
       ))}
     </div>

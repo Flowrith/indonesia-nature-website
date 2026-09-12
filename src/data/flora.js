@@ -9,7 +9,7 @@ const flora = [
     title: "RAFFLESIA ARNOLDI",
     image: rafflesia,
     subtitle : "(PULAU SUMATERA)",
-    link: "/#rafflesia",
+    link: "/rafflesia",
     button: "GET EDUCATION!"
 
   },
@@ -19,7 +19,7 @@ const flora = [
     title: "TITAN ARUM",
     image: titanarum,
     subtitle : "(PULAU SUMATERA)",
-    link: "/#titanarum",
+    link: "/titanarum",
     button: "GET EDUCATION!"
 
   },
@@ -29,7 +29,7 @@ const flora = [
   image: moonorchid,
   subtitle : "(JAWA, SUMATERA, ETC.)" ,
   subtitleClass: "small-subtitle",
-  link : "/#moonorchid",
+  link : "/moonorchid",
   button : "GET EDUCATION!"
 }
 ];

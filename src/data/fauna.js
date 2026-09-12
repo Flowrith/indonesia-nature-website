@@ -10,7 +10,7 @@ const fauna = [
     title: "KOMODO DRAGON",
     image: komododragon,
     subtitle : "(PULAU KOMODO, NTT)",
-    link: "/#fauna",
+    link: "/komodo-dragon",
     button: "GET EDUCATION!"
 
   },
@@ -21,7 +21,7 @@ const fauna = [
     title: "SUMATRAN TIGER",
     image: sumatrantiger,
     subtitle : "(PULAU SUMATERA)",
-    link: "/#flora",
+    link: "/sumatran-tiger",
     button: "GET EDUCATION!"
 
   },
@@ -31,7 +31,7 @@ const fauna = [
   title: "Jalak Bali",
   image: jalakbali,
   subtitle : "(PULAU BALI)" ,
-  link : "/#jalakbali",
+  link : "/jalak-bali",
   button : "GET EDUCATION!"
   }
 ];
