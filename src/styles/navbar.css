@@ -103,15 +103,6 @@
         ul {
             display: none;
         }
-        
-        @keyframes openMenu {
-            0% {
-                transform: translateX(100%);
-            }
-            100% {
-                transform: translateX(0);
-            }
-        }
 
         ul.active{
             display: flex;
