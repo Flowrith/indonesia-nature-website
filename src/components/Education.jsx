@@ -1,4 +1,5 @@
 import '../styles/home.css';
+import { Link } from 'react-router-dom';
 
 function Education({ item }) {
   return (
@@ -19,9 +20,9 @@ function Education({ item }) {
 
           <p>{item.text}</p>
 
-          <a href={item.link} className="Education-button">
+          <Link to={item.link} className="Education-button">
             {item.button}
-          </a>
+          </Link>
 
         </div>
 
