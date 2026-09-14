@@ -102,6 +102,8 @@ npm run dev
 - ✅ Detail Information Pages
 - ✅ About Section
 - ✅ Responsive
+- ✅ Router
+- ✅ Deploy
 
 ---
 
@@ -111,6 +113,7 @@ This project is helping me learn:
 
 - React Components
 - Props
+- Routing
 - Rendering Lists with `.map()`
 - Organizing Project Structure
 - Reusable UI Design
@@ -121,9 +124,6 @@ This project is helping me learn:
 
 ## 🌱 Future Improvements
 
-- Individual information pages
-- React Router
-- Category Lock System
 - Improved responsiveness
 
 ---
